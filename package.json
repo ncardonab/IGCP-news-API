@@ -1,0 +1,38 @@
+{
+  "name": "igcp-news-api",
+  "version": "0.1.0",
+  "description": "Scraped news from https://www.thinkgeoenergy.com/ and https://www.piensageotermia.com/ websites and served as API",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncardonab/IGCP-news-API.git"
+  },
+  "keywords": [
+    "News",
+    "API",
+    "Cheerio",
+    "Scraper"
+  ],
+  "author": "Nicolás Cardona Buelvas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncardonab/IGCP-news-API/issues"
+  },
+  "homepage": "https://github.com/ncardonab/IGCP-news-API#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
